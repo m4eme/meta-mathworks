@@ -1,0 +1,19 @@
+#Note: Mention Each package in individual line
+#These packages will get added into rootfs menu entry
+
+CONFIG_gpio-demo
+CONFIG_peekpoke
+CONFIG_startup
+CONFIG_webfwu
+
+CONFIG_u-boot-fw-utils 
+CONFIG_boost
+CONFIG_mw-fs-overlay
+CONFIG_libiio
+CONFIG_libserialport
+CONFIG_dtc
+CONFIG_lttng-tools
+CONFIG_lttng-modules
+CONFIG_lttng-ust
+CONFIG_babeltrace
+CONFIG_procps
