@@ -65,7 +65,7 @@ fi
 
 # Apply device-tree overlay if it exists
 if test -n ${fdt_overlay}; then
-	setenv fdtov_addr 0x1000000 
+	setenv fdtov_addr 0x10000000 
 	if test -e ${devtype} ${devnum}:${distro_bootpart} ${fdt_overlay}; then
 		echo "Applying device-tree overlay"
 		fdt addr @@DEVICETREE_ADDRESS@@
